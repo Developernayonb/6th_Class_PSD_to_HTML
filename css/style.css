@@ -1,0 +1,424 @@
+*{
+margin: 0;
+padding: 0;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+.ptb-100{
+    padding: 100px 0;
+}
+.mb{
+    margin-bottom: 30px;
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*============ Header Code CSS Part Start ===================*/
+.header{
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.logo{
+    width: 20%;
+    float: left; 
+}
+.logo img {
+    margin-top: 50px;
+}
+.main_menu{
+    width: 60%;
+   float: right;
+}
+.main_menu ul {
+   float: right;
+}
+
+.main_menu ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.main_menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 50px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.main_menu ul li a:hover{
+    color: #7690c5;
+}
+/*============ Banner Code CSS Part Start ===================*/
+.banner{
+    background-image: url(../images/banner.jpg);
+}
+.banner_content {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+.banner_content span {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+}
+.banner_content h2 {
+    color: #fff;
+    font-size: 66px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    border: 2px solid #fff;
+    padding: 20px 50px;
+    transition: .5s;
+}
+.btn:hover{
+    background: #7690c5;
+    border: 2px solid #7690c5;
+}
+/*============ Devlopment_Branding CSS Part Start ===================*/
+.develpoment_branding{
+   
+}
+.web_content{
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+.development_content{
+    width: 20%;
+    float: right;
+}
+.web_content h2 {
+    color: #222;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.web_content p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.web_content span {
+    font-weight: 300;
+}
+.development_content img {
+    width: 100%;
+}
+/*============ Branding CSS Part Start ===================*/
+
+.identy_content{
+    width: 20%;
+    float: left;
+}
+.identy_content img{
+    width: 100%;
+}
+.branding_contnet{
+    width: 70%;
+    float: right;
+}
+.branding_contnet h2 {
+    color: #222;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.branding_contnet p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.branding_contnet span {
+    font-weight: 300;
+}
+/*============ Service CSS Part Start ===================*/
+.service_warpper1{
+    width: 48%;
+    float: left;
+}
+.service_warpper2{
+    width: 48%;
+    float: right;
+}
+.service_icon {
+    background: #222222;
+    width: 15%;
+    float: left;
+    border: 1px solid #222222;
+    border-radius: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 5px;
+    margin-right: 15px;
+    transition: .5s;
+}
+.service_icon:hover{
+    background: #7690c5;
+    border: 1px solid #7690c5;
+}
+.service_content{
+    width: 85%;
+}
+.service_content h4 {
+    color: #222222;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.service_content p {
+    font-size: 18px;
+    line-height: 24px;
+}
+/*============ Clients CSS Part Start ===================*/
+.clients {
+    background: #fafafa;
+}
+
+.text-tilte h1 {
+    color: #222222;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.text-tilte span {
+    font-weight: 300;
+}
+
+.text-tilte p {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+.client_img{
+    width: 20%;
+    float: left;
+}
+.client_text{
+    width: 70%;
+    float: right;
+}
+.client_img img {
+    width: 100%;
+    border-radius: 100%;
+    text-align: center;
+    transition: .9s;
+}
+.client_img img:hover{
+    transform: scale(.8);
+}
+.client_text {
+    width: 70%;
+    float: right;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 50px 0;
+    margin-bottom: 80px;
+}
+.client_text h5 {
+    color: #777777;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+    padding: 0 65px;
+}
+
+.client_text span {
+    color: #7690c5;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    padding: 65px;
+}
+/*2nd*/
+.client_img1{
+    width: 20%;
+    float: right;
+}
+.client_text1{
+    width: 70%;
+    float: left;
+}
+.client_img1 img {
+    width: 100%;
+    border-radius: 100%;
+    text-align: center;
+    transition: .9s;
+}
+.client_img1 img:hover{
+    transform: scale(.8);
+}
+.client_text1 {
+    width: 70%;
+    float: left;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 50px 0;
+}
+.client_text1 h5 {
+    color: #777777;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+    padding: 0 65px;
+}
+
+.client_text1 span {
+    color: #7690c5;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    padding: 65px;
+}
+/*============ brand_thumbnil CSS Part Start ===================*/
+.brand_thumbnil {
+    width: 24%;
+    float: left;
+}
+/*============ Team CSS Part Start ===================*/
+.team_area {
+    background: #111;
+}
+.team-tilte h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.team-tilte span {
+    font-weight: 300;
+}
+
+.team-tilte p {
+    color: #777;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+.team_content{
+    width: 30%;
+    float: left;
+}
+.team_content {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.team_content img {
+    width: 100%;
+    margin-bottom: 25px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    transition: .9s;
+}
+.team_content img:hover{
+    transform: scale(.2);
+}
+.team_content h5 {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.team_content p {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.team_iocn ul {text-align: center;}
+.team_iocn ul li {
+    width: fit-content;
+    display: inline-block;
+    padding: 20px 10px;
+    transition: .5s;
+    transition: .9s;
+}
+.team_iocn ul li:hover{
+    transform: rotate(360deg);
+}
+.bottom_title {
+    color: #ebebeb;
+    text-align: center;
+    font-size: 20px;
+}
+/*============ Contact CSS Part Start ===================*/
+.contact_area {
+    background: #7690c5;
+}
+.hello_title h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.hello_title span {
+    font-weight: 300;
+}
+.hello_title p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.say_hello{
+    width: 45%;
+    float: left;
+}
+.contact_form{
+    width: 45%;
+    float: right;
+}
+.contact_icon {
+    width: 5%;
+    float: left;
+}
+.contact_info {
+    width: 40%;
+    float: left;
+    margin-left: 14px;
+}
+/*form*/
+#first_name, #your_email{
+    width: 100%;
+    height: 50px;
+    display: block;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+#message {
+    padding: 13px 15px;
+    font-size: 15px;
+}
+/*footer*/
+.footer_content p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 100px;
+}
